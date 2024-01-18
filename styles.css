@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-pink: hsl(275, 100%, 97%);
+  --Grayish-purple: hsl(292, 16%, 49%);
+  --Dark-purple: hsl(292, 42%, 14%);
+  --Pink: #ad28eb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+  background-image: url("assets/images/background-pattern-desktop.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  padding: 40px;
+  /* align-items: flex-start; */
+  gap: 32px;
+  border-radius: 16px;
+  background: var(--White);
+  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+}
+h1 {
+  color: var(--Dark-purple);
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+h2 {
+  color: var(--Dark-purple);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2:hover {
+  cursor: pointer;
+  color: var(--Pink);
+}
+.answers {
+  color: var(--Grayish-purple);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  align-self: stretch;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.heading-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hidden {
+  display: none;
+}
+hr {
+  height: 1px;
+  width: 520px;
+  background: var(--Light-pink);
+  margin: 0;
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("assets/images/background-pattern-mobile.svg");
+  }
+  main {
+    width: 327px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 8px;
+  }
+  .logo img {
+    width: 24px;
+    height: 24px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+    width: 224px;
+  }
+  .answers {
+    font-size: 14px;
+  }
+  hr {
+    width: 279px;
+  }
+}
