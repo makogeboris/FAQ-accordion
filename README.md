@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/mkboris/FAQ-accordion
-- Live Site URL: https://faq-accordion-gray-five.vercel.app/
+- Live Site URL: https://mkboris.github.io/FAQ-accordion/
   
 ### Built with
 
