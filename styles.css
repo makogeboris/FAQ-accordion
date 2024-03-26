@@ -121,15 +121,13 @@ body {
 }
 .logo img {
   width: 2.5rem;
-  height: 2.5rem;
 }
 main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 37.5rem;
+  max-width: 37.5rem;
   padding: 2.5rem;
-  /* align-items: flex-start; */
   gap: 2rem;
   border-radius: 1rem;
   background: var(--White);
@@ -179,21 +177,19 @@ hr {
 
 @media screen and (max-width: 37.5rem) {
   main {
-    width: 20.4375rem;
+    max-width: 20.4375rem;
     padding: 1.5rem;
     gap: 1.5rem;
     border-radius: 0.5rem;
   }
   .logo img {
     width: 1.5rem;
-    height: 1.5rem;
   }
   h1 {
     font-size: 2rem;
   }
   h2 {
     font-size: 1rem;
-    width: 14rem;
   }
   .answers {
     font-size: 0.875rem;
@@ -206,5 +202,6 @@ hr {
 @media screen and (max-width: 26.5625rem) {
   body {
     background-image: url("assets/images/background-pattern-mobile.svg");
+    background-size: contain;
   }
 }
