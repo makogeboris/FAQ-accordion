@@ -6,6 +6,7 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
