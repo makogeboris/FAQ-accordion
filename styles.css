@@ -114,14 +114,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .logo {
   display: flex;
   gap: 1.5rem;
   align-items: center;
 }
+
 .logo img {
   width: 2.5rem;
 }
+
 main {
   display: flex;
   justify-content: center;
@@ -133,12 +136,14 @@ main {
   background: var(--White);
   box-shadow: 0 2rem 3.5rem 0 rgba(80, 0, 118, 0.1);
 }
+
 h1 {
   color: var(--Dark-purple);
   font-size: 3.5rem;
   font-weight: 700;
   margin: 0;
 }
+
 h2 {
   color: var(--Dark-purple);
   font-size: 1.125rem;
@@ -146,10 +151,16 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 h2:hover {
   cursor: pointer;
   color: var(--Pink);
 }
+
+.icons {
+  cursor: pointer;
+}
+
 .answers {
   color: var(--Grayish-purple);
   font-size: 1rem;
@@ -159,14 +170,17 @@ h2:hover {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+
 .heading-icon {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .hidden {
   display: none;
 }
+
 hr {
   height: 0.0625rem;
   width: 32.5rem;
@@ -182,18 +196,23 @@ hr {
     gap: 1.5rem;
     border-radius: 0.5rem;
   }
+
   .logo img {
     width: 1.5rem;
   }
+
   h1 {
     font-size: 2rem;
   }
+
   h2 {
     font-size: 1rem;
   }
+
   .answers {
     font-size: 0.875rem;
   }
+
   hr {
     width: 17.4375rem;
   }

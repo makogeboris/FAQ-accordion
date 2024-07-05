@@ -12,6 +12,14 @@ questions.forEach((question, index) => {
   });
 });
 
+icons.forEach((icon, index) => {
+  icon.addEventListener("click", () => {
+    const isHidden = answers[index].classList.toggle("hidden");
+    hideAllAnswers(index);
+    updateIcons(index, isHidden);
+  });
+});
+
 function hideAllAnswers(exceptIndex) {
   answers.forEach((answer, index) => {
     if (index !== exceptIndex) {
