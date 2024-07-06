@@ -113,6 +113,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 1.5rem;
 }
 
 .logo {
@@ -135,6 +136,8 @@ main {
   border-radius: 1rem;
   background: var(--White);
   box-shadow: 0 2rem 3.5rem 0 rgba(80, 0, 118, 0.1);
+  width: 100%;
+  transition: all 0.3s ease-in;
 }
 
 h1 {
@@ -150,6 +153,7 @@ h2 {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
+  transition: all 0.3s ease;
 }
 
 h2:hover {
@@ -175,6 +179,7 @@ h2:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .hidden {
@@ -183,7 +188,7 @@ h2:hover {
 
 hr {
   height: 0.0625rem;
-  width: 32.5rem;
+  width: 100%;
   background: var(--Light-pink);
   margin: 0;
   opacity: 0.2;
@@ -191,7 +196,6 @@ hr {
 
 @media screen and (max-width: 37.5rem) {
   main {
-    max-width: 20.4375rem;
     padding: 1.5rem;
     gap: 1.5rem;
     border-radius: 0.5rem;
@@ -207,14 +211,11 @@ hr {
 
   h2 {
     font-size: 1rem;
+    text-wrap: wrap;
   }
 
   .answers {
     font-size: 0.875rem;
-  }
-
-  hr {
-    width: 17.4375rem;
   }
 }
 
