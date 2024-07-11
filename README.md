@@ -26,9 +26,15 @@ Users should be able to:
 
 ### Links
 
+<<<<<<< HEAD
 - [Solution](https://github.com/mkboris/FAQ-accordion)
 - [Live Site](https://faq-accordion-gray-five.vercel.app/)
 
+=======
+- Solution URL: https://github.com/mkboris/FAQ-accordion
+- Live Site URL: https://mkboris.github.io/FAQ-accordion/
+  
+>>>>>>> c51004d7dde653e93d010482e554eca9d9490c21
 ### Built with
 
 - Semantic HTML5 markup
