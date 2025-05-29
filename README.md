@@ -26,7 +26,6 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/mkboris/FAQ-accordion)
 - [Live Site](https://faq-accordion-gray-five.vercel.app/)
 
 ### Built with
@@ -37,4 +36,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
+- Frontend Mentor - [makogeboris](https://www.frontendmentor.io/profile/makogeboris)
+- Twitter - [makogeboris](https://x.com/makogeboris)
